@@ -1,0 +1,59 @@
+
+
+.Titlecart h1{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.red-jacket,
+.yellow-jacket{
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    margin: 20px 0px 0px 20px;
+    text-align: left;
+}
+
+.product-red-jacket,
+.product-yellow-jacket{
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+   
+}
+
+.purchase-details{
+    display: flex;
+    border: 0.5px solid #a9a3a3;
+    gap: 20px;
+    flex-wrap: nowrap;
+    margin: 80px 30px;
+}
+
+.billing-details{
+    flex: 1;  
+    flex-direction: column;
+    background-color: #efeff4;
+    display: flex;
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.billing-details-text{
+    font-weight: 600;
+}
+.jacket-details{
+    flex: 2;
+   
+}
+
+
+.checkbtn{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px; 
+    margin-top: 40px;
+}

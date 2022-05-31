@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="See you cart" />
+    <title>RAINYDAYS| Cart_view_page</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/all.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/cart_view_page.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body>
+    <header>
+      <a href="index.html">
+        <img
+          class="logo"
+          src="images/rainydays_logo.png"
+          alt="Logo of Rainydays website"
+      /></a>
+      <div class="label-hamburger-menu">
+        <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
+        <input type="checkbox" id="hamburger-menu" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="men.html">Men</a></li>
+          <li><a href="women.html">Women</a></li>
+          <li><a href="all.html">All</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav-icons">
+        <i class="fas fa-search"></i>
+        <i class="far fa-heart"></i>
+        <i class="fas fa-shopping-cart"></i>
+        <i class="far fa-user"></i>
+      </div>
+    </header>
+    <div class="page_container">
+      <main>
+        <div class="Titlecart">
+          <h1>Shopping Cart(2)</h1>
+        </div>
+        <section class="purchase-details">
+          <div class="jacket-details">
+            <div class="product-red-jacket">
+              <div class="red-jacket">
+                <div>
+                  <img src="images/red-jacket.png" alt="jacket red" />
+                </div>
+                <div>
+                  <h2>Super light down jacket</h2>
+                  <p>Colour: Red</p>
+                  <p>Size: Medium</p>
+                  <p>Price 1650 nok</p>
+                </div>
+              </div>
+              <div class="red-jacket-text">
+                <p>Remove</p>
+              </div>
+            </div>
+            <div class="product-yellow-jacket">
+              <div class="yellow-jacket">
+                <div>
+                  <img src="images/yellow-jacket.jpg" alt="jacket red" />
+                </div>
+                <div>
+                  <h2>Super light down jacket</h2>
+                  <p>Colour: Red</p>
+                  <p>Size: Medium</p>
+                  <p>Price 1650 nok</p>
+                </div>
+              </div>
+              <div class="yellow-jacket-text">
+                <p>Remove</p>
+              </div>
+            </div>
+          </div>
+          <div class="billing-details">
+            <div class="billing-details-text">
+              <p>Sub Total 3100 nok</p>
+              <p>Delivery Cost 150 nok</p>
+              <p>Tax(15% Vat) 465</p>
+              <p>Total Pay 3715 nok</p>
+            </div>
+            <div class="checkbtn">
+              <div>
+                <a href="checkout_page.html" class="cta"
+                  >Continue to check out</a
+                >
+              </div>
+              <div>
+                <a href="index.html" class="cta cta-shopping"
+                  >Back to shopping</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footerContainer">
+        <div class="footer">
+          <div class="footer-heading footer-1">
+            <h3>About Us</h3>
+            <a href="#">About RainyDays</a>
+            <a href="#">Work With Us</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+          </div>
+          <div class="footer-heading footer-2">
+            <h3>Customer Service</h3>
+            <a href="#">Ordering & payment</a>
+            <a href="#">Shipping</a>
+            <a href="#">Returns</a>
+            <a href="#">FAQ</a>
+          </div>
+          <div class="footer-heading footer-3">
+            <h3>Contact Us</h3>
+            <p>+44 345 678 903</p>
+            <p>rainydays@mail.com</p>
+          </div>
+          <div class="footer-email-form">
+            <h3>Subscribe to Rainydays via Email</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <form action="" method="post">
+              <input
+                type="email"
+                id="footer-email"
+                name="footer-email"
+                placeholder="Email Address"
+              />
+              <input type="submit" value="Subscribe" id="footer-email-btn" />
+            </form>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>

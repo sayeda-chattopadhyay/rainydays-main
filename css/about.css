@@ -1,0 +1,29 @@
+.header-aboutUs h1{
+    font-size: 35px;
+    text-align: center;
+}
+
+.Story-aboutUs{
+    text-align: center;
+
+}
+
+.Story-aboutUs p{
+    text-align: left;
+    font-size: 20px;
+    padding: 20px;  
+    border-radius: 4px;
+    background-color: #efefef;
+}
+
+.Story-aboutUs h2{
+    font-size: 28px;
+
+}
+
+.header-aboutUs,
+.Story-aboutUs{
+    margin: 50px auto;
+    padding:10px 30px ;
+    max-width: 1000px;
+}

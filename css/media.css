@@ -1,0 +1,63 @@
+@media only screen and (max-width : 480px){
+    .cta{
+    font-size: 0.7em;
+    padding: 10px 20px;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+
+    .Page-checkout h1 {
+        font-size: 35px;
+    }
+
+
+
+    .product-red-jacket,
+    .product-yellow-jacket{
+     flex-direction: column;
+
+    }
+    .red-jacket,
+    .yellow-jacket{
+    flex-direction: column;
+
+    }
+    
+}
+
+
+   
+@media only screen and (max-width : 807px){
+    
+    .selected-jacket,
+    .product-info,
+    .write-review,
+    .customer-review,
+    .review-picture,
+    .review-text,
+    .check-out-details{
+        flex-flow: column wrap;
+    }
+
+    .selected-jacket{
+        display: block;
+    }
+   
+}
+    @media only screen and (max-width : 1000px){
+
+    .purchase-details{
+        flex-direction: column;
+
+    }   
+ 
+}
+@media only screen and (max-width : 1249px){
+
+.footer{
+    height: 120vh;
+ }
+
+}

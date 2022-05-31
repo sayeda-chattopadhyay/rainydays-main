@@ -1,0 +1,143 @@
+@import "import/links.css";
+
+@font-face {
+  font-family: "poppins";
+  src: url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap")
+    format("true type");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+body {
+  font-family: poppins, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+.logo {
+  width: 120px;
+  margin-left: 1rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  background-color: cornflowerblue;
+  justify-content: start;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.page_container {
+  margin-top: 5rem;
+}
+
+nav {
+  margin: auto;
+  display: block;
+  position: static;
+}
+
+.label-hamburger-menu {
+  display: none;
+}
+
+nav ul {
+  padding: 0px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+.nav-icons {
+  margin-right: 1rem;
+  font-size: 1.5em;
+}
+
+/* .form_fillUp {
+  padding-left: 20px;
+  flex: 2;
+  margin-top: 10px;
+} */
+
+/* input,
+select,
+textarea{
+    border: 1px solid #1d1d1d;
+    border-radius: 4px;
+    margin: 10px 10px 10px 0px;
+    padding: 15px;
+}
+.form__input{
+    display: block;
+    padding-right: 150px;
+    padding-top: 20px;
+} */
+
+/* footer */
+
+.footerContainer {
+  background-color: #023373;
+  padding-bottom: 50px;
+}
+
+.footer {
+  width: 100%;
+  height: 50vh;
+  background-color: #023373;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 8px auto;
+  padding-top: 30px;
+  gap: 10px;
+}
+
+.footer-heading,
+.footer-email-form {
+  display: flex;
+  flex-direction: column;
+  margin-right: 64px;
+}
+
+#footer-email {
+  width: 250px;
+  border-radius: 4px;
+  outline: #fff;
+  border: #fff;
+  padding-left: 8px;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+#footer-email::placeholder {
+  color: #b1b1b1;
+}
+
+#footer-email-btn {
+  width: 100px;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #1d1d1d;
+  outline: #fff;
+  border: #fff;
+  font-size: 1em;
+}

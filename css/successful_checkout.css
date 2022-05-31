@@ -1,0 +1,21 @@
+.successful-icon{
+    text-align: center;
+    margin: 40px auto;
+    padding:40px 30px;
+    font-size: 28px;
+    color: #10b010;
+}
+
+.ikon-spacing{
+    font-size: 3em;
+    color: #10b010;   
+}
+
+.successful-Text{
+    padding-left: 60px;
+    margin-bottom: 60px;
+}
+
+.successful-button{
+    padding-left: 60px;
+}

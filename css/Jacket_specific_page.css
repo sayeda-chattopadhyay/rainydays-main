@@ -1,0 +1,139 @@
+
+.selected-jacket,
+.product-info{
+    display: flex; 
+    justify-content: space-between;
+    gap: 10px;
+    max-width: 1500px;
+    margin: 30px; 
+   
+}
+
+.selected-jacket{
+    padding-top: 20px;
+}
+
+.selected-jacket > *,
+.product-info > * {
+    flex: 1;
+}
+
+
+.red-jacket-bigpic{
+    padding: 0px 30px;
+}
+
+
+
+
+.selected-jacket_image,
+.customer-jacket_image{
+    border-radius: 2px;
+}
+
+
+.product-size,
+.jacket_star_ratings{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+}
+
+
+.product-size a{
+    font-weight: bold;
+}
+
+.jacket_star_ratings{
+    max-width: 250px;  
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+
+.star_ratings{
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 200px;
+    font-size: 12px;
+    border: 1px solid blue;
+    margin: 0px auto;
+    border-radius: 2px;
+   
+}
+
+.details_of_product,
+.details_of_shipping{  
+    margin-top: 40px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+
+.details_of_shipping p,
+.review-text p{
+    max-width: 400px;
+}
+
+
+.details_of_product ul{
+    padding-left:20px ;
+}
+
+.average-ratings{
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px;
+   
+    flex-wrap: nowrap;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.review{
+    border: 1px solid gray;
+    padding: 30px;
+    margin: 80px 30px 150px;
+}
+
+
+.write-review{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.review-button{
+    border: 2px solid black;
+    padding: 5px 40px;
+    text-align: center;   
+}
+
+
+.customer-review{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+      
+}
+
+
+ .review-picture{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;  
+    gap: 25px;
+    
+ }  
+ 
+ .review-picture div{
+     flex: 1;
+ }
+
+
+.review-text{
+    flex: 1;
+}
+
