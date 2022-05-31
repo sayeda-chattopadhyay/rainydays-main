@@ -15,7 +15,7 @@
     />
     <link rel="stylesheet" href="/css/all.css" />
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/contact_us.css" />
     <link rel="stylesheet" href="css/media.css" />
   </head>
   <body>
@@ -57,68 +57,33 @@
             poreperaoluptatem dolupta temqui aut demolup liatque porepera.
           </p>
         </section>
-        <form action="#" method="post" id="#">
+        <form action="" id="contact-form">
           <div>
-            <label for="first_name"> * First Name </label>
-            <input
-              type="text"
-              id="first_name"
-              name="first_name"
-              class="form__input"
-              required
-            />
-            <div class="input-error" id="first-name-error">Required.</div>
+            <label for="name">Name (required)</label>
+            <input type="text" id="name" name="name" />
+            <div class="input-error" id="name-error">Required.</div>
           </div>
           <div>
-            <label for="last_name"> * Last Name</label>
-            <input
-              type="text"
-              id="last_name"
-              name="last_name"
-              class="form__input"
-              required
-            />
-            <div class="input-error" id="last-name-error">Required.</div>
-          </div>
-          <div>
-            <label for="address"> * Address 1</label>
-            <input
-              type="address"
-              id="address"
-              name="address"
-              class="form__input"
-              required
-            />
+            <label for="address">Address (minimum 25 characters)</label>
+            <input type="text" id="address" name="address" />
             <div class="input-error" id="address-error">
-              Address (minimum 25 characters).
+              Your address must be at least 25 characters
             </div>
           </div>
           <div>
-            <label for="email"> * Email</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              class="form__input"
-              required
-            />
+            <label for="email">Email (required)</label>
+            <input type="email" id="email" name="email" />
             <div class="input-error" id="email-error">
               Please enter a valid email address.
             </div>
           </div>
-          <div>
-            <label for="contact_number"> * Contact Number</label>
-            <input
-              type="tel"
-              id="contact_number"
-              name="contact_number"
-              class="form__input"
-              required
-            />
-            <div class="input-error" id="contact-error">
-              contact number (minimum 8 number).
+          <!-- <div>
+            <label for="contact-number">Contact Number (required)</label>
+            <input type="tel" id="contact-number" name="contact-number" />
+            <div class="input-error" id="contact-number-error">
+              Please enter a valid contact number.
             </div>
-          </div>
+          </div> -->
           <div>
             <label for="message">How can we help you</label>
             <textarea
@@ -128,13 +93,13 @@
               rows="10"
             ></textarea>
             <div class="input-error" id="message-error">
-              Your message must be within 50 characters.
+              Your message must be at least 25 characters
             </div>
           </div>
-          <button type="submit">Submit</button>
+          <button>Submit</button>
         </form>
       </main>
     </div>
-    <script src="js/contact.js"></script>
+    <script src="js/contact_us.js"></script>
   </body>
 </html>

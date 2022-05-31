@@ -1,17 +1,17 @@
 const contactForm = document.querySelector("#contact-Form");
 
 contactForm.onsubmit = function () {
-  event.preventDefault();
+  // event.preventDefault();
 
   console.log(event);
 
-  const name = document.querySelector("#first_name");
+  // const name = document.querySelector("#first_name");
 
-  console.log(name.value);
+  // console.log(name.value);
 };
 
-// const firstName = document.querySelector("#first_name");
-// const firstNameError = document.querySelector("#first-name-error");
+const firstName = document.querySelector("#first_name");
+const firstNameError = document.querySelector("#first-name-error");
 
 // const email = document.querySelector("#email");
 // const emailError = document.querySelector("#email-error");
@@ -34,7 +34,7 @@ contactForm.onsubmit = function () {
 //   }
 // }
 
-// contactForm.addEventListener("submit", formValidation);
+contactForm.addEventListener("submit", formValidation);
 
 // function checkLength(value, len) {
 //   if (value.trim().length > len) {
