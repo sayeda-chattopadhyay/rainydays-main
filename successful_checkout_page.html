@@ -5,43 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="thank you for your purchase" />
     <title>RAINYDAYS| checkout_successful</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/all.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/successful_checkout.css" />
     <link rel="stylesheet" href="css/media.css" />
+    <script src="https://kit.fontawesome.com/bdb94ef7c7.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <header class="top-nav">
-      <div class="brand-logo">
+    <header>
+      <!-- <div class="brand-logo">
         <a href="index.html">
           <img
             class="logo"
             src="images/rainydays_logo.png"
             alt="Logo of Rainydays website"
-        /></a>
+        /></a> -->
+        <a href="index.html">
+          <img
+            class="logo"
+            src="images/rainydays_logo.png"
+            alt="Logo of Rainydays website" /></a>
+        <label for="hamburger-menu" class="hamburger-menu_icon"><i class="fas fa-bars ikon-spacing"></i></label> 
+        <input type="checkbox" id="hamburger-menu">
       </div>
       <nav>
-        <ul>
+        <ul class="nav1">
+          <li><a href="index.html">Home</a></li>
           <li><a href="men.html">Men</a></li>
           <li><a href="women.html">Women</a></li>
-          <li><a href="all.html">All</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact_us.html">Contact</a></li>
+        </ul>
+        <ul class="nav2"> 
+          <li><a href="#"><i class="fas fa-search"></i></a></i></li>
+          <li><a href="#"><i class="far fa-user"></i></a></li>
+          <li><a href="#"><i class="far fa-heart"></i></a></li> 
+          <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>           
         </ul>
       </nav>
-      <div class="nav-icons">
-        <i class="fas fa-search"></i>
-        <i class="far fa-heart"></i>
-        <i class="fas fa-shopping-cart"></i>
-        <i class="far fa-user"></i>
-      </div>
     </header>
-    <div class="page_container">
       <main>
         <section class="successful">
           <div class="successful-icon">
@@ -64,7 +69,6 @@
           </div>
         </section>
       </main>
-    </div>
     <script src="js/index.js"></script>
   </body>
 </html>

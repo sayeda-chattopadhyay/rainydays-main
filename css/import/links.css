@@ -12,9 +12,12 @@ header a {
   color: #fff;
   border: none;
   font-size: 1em;
-  padding: 10px 30px;
-  border-radius: 30px;
+  padding: 10px 20px;
+  border-radius: 4px;
   margin-right: 20px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 1s;
 }
 
 .cta-shopping {
@@ -68,7 +71,7 @@ i {
 nav ul li a {
   color: #1d1d1d;
   font-size: 1.5em;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 nav a:hover {

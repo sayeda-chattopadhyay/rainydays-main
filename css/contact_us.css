@@ -1,4 +1,20 @@
-/* contact us page */
+.ourcontact {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.ourcontact h1,
+p {
+  text-align: center;
+  font-size: 35px;
+  padding: 35px;
+}
+
+.ourcontact p {
+  font-size: 20px;
+  text-align: left;
+  margin: 10px 50px;
+}
 
 input {
   width: 100%;
@@ -21,6 +37,19 @@ label {
   margin-top: 1rem;
 }
 
+form {
+  max-width: 500px;
+  padding: 2em;
+  background: rgb(231, 226, 226);
+  border: 2px solid black;
+  border-radius: 1rem;
+  margin: 0 auto;
+}
+textarea {
+  width: 80%;
+  border: 2px solid green;
+}
+
 .input-error {
   display: none;
   color: red;
@@ -32,6 +61,19 @@ button {
   background: rgb(11, 133, 31);
   border-radius: 4px;
   border: none;
+  width: 300px;
+  padding: 20px;
+  color: white;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+button {
+  background-color: #023373;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  border-radius: 4px;
   width: 300px;
   padding: 20px;
   color: white;

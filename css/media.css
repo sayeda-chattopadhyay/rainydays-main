@@ -1,4 +1,4 @@
-@media only screen and (max-width : 480px){
+/* @media only screen and (max-width : 480px){
     .cta{
     font-size: 0.7em;
     padding: 10px 20px;
@@ -60,4 +60,104 @@
     height: 120vh;
  }
 
+} */
+
+@media only screen and (min-width: 858px) {
+  nav {
+    display: block;
+    position: static;
+    top: 0px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    gap: 20px;
+    width: 100%;
+    /* padding: 15px 0px; */
+  }
+
+  nav ul li {
+    display: inline-block;
+    padding: 0px;
+    /* border: 2px solid red; */
+  }
+  nav ul li a {
+    font-size: 1.2em;
+    /* background-color: yellow; */
+  }
+
+  /* .nav2__icons {
+    margin-left: 0px;
+    margin-right: 0px;
+  } */
+
+  header label {
+    display: none;
+  }
+
+  header {
+    flex-direction: column;
+    height: 120px;
+    justify-content: space-between;
+  }
+
+  /* men and women html page */
+  .Outdoor-product-types {
+    margin-top: 160px;
+  }
+
+  .specific-jacket {
+    margin-top: 160px;
+  }
+
+  .jacket-card {
+    flex-direction: row;
+  }
+
+  .jacket-card__image,
+  .card-contain {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .product-info {
+    flex-direction: row;
+  }
+
+  .write-review,
+  .customer-review {
+    flex-direction: row;
+  }
+  .customer-review {
+    flex-direction: row;
+  }
+
+  .review-picture {
+    flex-direction: row;
+  }
+
+  .purchase-details {
+    flex-direction: row;
+  }
 }
+
+/* jacket-women page */
+
+/* @media only screen and (min-width: 1004px) {
+} */
+
+/* justify-content: space-between;
+
+nav{
+    display: block;
+    position: static;
+    top: 0px;
+} 
+
+
+  /* nav {
+    display: block;
+    position: static;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 100px; */

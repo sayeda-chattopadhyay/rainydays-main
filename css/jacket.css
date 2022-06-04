@@ -1,0 +1,18 @@
+.breadcrumbs__items {
+  display: inline-block;
+}
+
+.breadcrumbs__items:not(:last-of-type)::after {
+  content: "\203a";
+  margin: 0 5px;
+  color: #cccccc;
+}
+
+.breadcrumbs__links:hover {
+  text-decoration: underline;
+}
+
+.breadcrumbs__links--active {
+  color: #ff6347;
+  font-weight: 600;
+}
