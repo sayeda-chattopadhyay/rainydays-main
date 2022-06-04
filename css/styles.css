@@ -47,28 +47,6 @@ header {
   margin-left: 1rem;
 }
 
-/* header {
-  /* display: flex;
-  align-items: center;
-  height: 5rem;
-  background-color: cornflowerblue;
-  justify-content: start;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%; */
-/* z-index: 100; */
-/* } */
-
-/* .page_container {
-  margin-top: 5rem;
-} */
-
-/* nav {
-  margin: auto;
-  display: block;
-  position: static;
-} */
 
 .label-hamburger-menu {
   display: none;
@@ -227,7 +205,7 @@ header {
   justify-content: space-between;
   position: fixed;
   top: 0px;
-  height: 90px;
+  /* height: 90px; */
   z-index: 100;
 }
 
@@ -236,7 +214,7 @@ main {
 }
 
 nav {
-  display: block;
+  display: none;
   position: fixed;
   top: 90px;
   z-index: 1000;
