@@ -25,28 +25,26 @@
 }
 
 .adventure {
-  background-image: url("../images/homepage-image1.jpg");
+  background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,100,0.3)),url("../images/homepage-image1.jpg");
 }
 
 .outdoor {
-  background-image: url("../images/homepage-image2.jpg");
+  background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,100,0.3)), url("../images/homepage-image2.jpg");
 }
 
 .seasontype {
-  background-image: url("../images/homepage-image3.jpg");
+  background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,100,0.3)), url("../images/homepage-image3.jpg");
 }
 
 .guidance {
-  background-image: url("../images/homepage-image4.jpg");
+  background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,100,0.3)), url("../images/homepage-image4.jpg");
 }
 
 .product-featured h1 {
   font-size: 35px;
-  /* margin-right: 0.5em; */
-  /* text-align: right; */
   margin-left: 20px;
-  /* padding: 20px; */
-  border: 2px solid red;
+color: #fff;
+
 }
 
 .product-featured h2 {
@@ -59,12 +57,14 @@
 }
 
 .explore-cta {
+  /* max-width: 400px; */
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
+  flex-direction: column;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   gap: 10px;
-  margin: 30px;
+  margin-left: 20px;
+  /* margin: 30px; */
   /* padding-top: 25rem;
   padding-right: 1rem;
   padding-left: 5rem; */

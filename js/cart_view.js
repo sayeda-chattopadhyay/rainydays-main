@@ -14,9 +14,11 @@ cartItems.forEach(function(cartElement){
 
     cartContainer.innerHTML +=
     `<div class ="cart-item">
-        <div style="background-image: url(${cartElement.imgsrc})" class ="cart-image"></div>
-        <h4>${cartElement.name}</h4>
-        <h4>${cartElement.price}</h4>
+        <div style="background-image: url(${cartElement.imgsrc})" class ="cart-image-view"></div>
+        <div class ="cart-item">
+            <h4>${cartElement.name}</h4>
+            <h4>${cartElement.price}</h4>
+        </div>
     </div>`;
 
 
