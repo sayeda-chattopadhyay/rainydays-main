@@ -1,9 +1,9 @@
-.Outdoor-product-types {
+/* .Outdoor-product-types {
   border: 4px solid blue;
-}
+} */
 
 .OutdoorProducts {
-  border: 4px solid rgb(49, 0, 128);
+  /* border: 4px solid rgb(49, 0, 128); */
   margin: 20px;
 }
 
@@ -84,9 +84,9 @@
   /* flex-direction: column; */
   flex-wrap: wrap;
   justify-content: space-evenly;
-  border: 4px solid green;
+  /* border: 0.5px solid rgb(139, 142, 139); */
   margin: 20px;
-  background-color: rgb(234, 241, 241);
+  /* background-color: rgb(234, 241, 241); */
 }
 
 .viewLink {
@@ -96,4 +96,3 @@
   font-weight: bold;
   text-transform: capitalize;
 }
-

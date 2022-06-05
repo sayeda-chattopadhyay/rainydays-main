@@ -71,7 +71,7 @@ nav {
   top: 90px;
   z-index: 1000;
   right: 0px;
-  border: 2px solid black;
+  /* border: 2px solid rgb(166, 159, 159); */
 }
 
 nav ul,
@@ -102,7 +102,7 @@ header,
 footer,
 nav {
   background-color: cornflowerblue;
-  color: #fff;
+  /* color: #fff; */
 }
 
 /* footer */

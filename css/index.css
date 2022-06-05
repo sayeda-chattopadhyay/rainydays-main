@@ -10,7 +10,7 @@
 .outdoor,
 .seasontype,
 .guidance {
-  border: 2px solid red;
+  border: 2px solid rgb(218, 211, 211);
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;

@@ -84,7 +84,7 @@
     justify-content: space-around;
     gap: 20px;
     width: 100%;
-    /* padding: 15px 0px; */
+    padding: 15px 0px;
   }
 
   nav ul li {
@@ -156,6 +156,10 @@
   }
 
   .purchase-details {
+    flex-direction: row;
+  }
+
+  .check-out-details {
     flex-direction: row;
   }
 }
