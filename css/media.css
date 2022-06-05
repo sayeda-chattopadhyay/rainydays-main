@@ -63,21 +63,18 @@
 } */
 
 @media only screen and (min-width: 590px) {
+  .explore-cta {
+    max-width: 400px;
+    display: flex;
+    flex-direction: row;
+  }
 
-    .explore-cta{
-        max-width: 400px;
-        display: flex;
-        flex-direction: row;
-    }
-    
-    .cta{
-        padding: 10px 30px;
-    }
-    
-    
+  .cta {
+    padding: 10px 30px;
+  }
 }
 
-@media only screen and (min-width: 858px) {
+@media only screen and (min-width: 882px) {
   nav {
     display: block;
     position: static;
@@ -100,7 +97,6 @@
     /* background-color: yellow; */
   }
 
-
   header label {
     display: none;
   }
@@ -111,22 +107,18 @@
     justify-content: space-between;
   }
 
-
-  .adventure_content{
+  .adventure_content {
     margin: 300px auto;
-}
+  }
 
-.footer{
+  .footer {
     height: 40vh;
-}
+  }
 
-.cart {
+  .cart {
     right: 80px;
     top: 144px;
   }
-
-
-
 
   /* men and women html page */
   .Outdoor-product-types {
@@ -166,8 +158,4 @@
   .purchase-details {
     flex-direction: row;
   }
-
-
 }
-
-
