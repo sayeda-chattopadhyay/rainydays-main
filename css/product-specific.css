@@ -1,14 +1,15 @@
 .jacket-details {
   border: 5px solid red;
-  width: 1000px;
-  margin: 80px auto;
+  width: 600px;
+  margin: 40px auto;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .breadcrumb-nav {
   padding: 50px;
-  border: 2px solid black;
+  margin-top: 56px;
 }
 
 .jacket-card_text {

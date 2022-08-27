@@ -26,16 +26,27 @@ async function fetchProduct() {
 
 fetchProduct();
 
+// function createHTML(details) {
+//   detailContainer.innerHTML = ` <div class="jacket-details_image">
+//                                     <img src ="${details.images[0].src}" alt="${details.name}">
+//                                     </div>
+//                                     <div class="jacket-card_text">
+//                                         <div>
+//                                             <h2>${details.name}</h2>
+//                                             <h3> Price : ${details.prices.price}</h3>
+//                                         </div>
+//                                         <p>${details.description}</p>
+//                                    </div>
+//                                    </div>
+//                                     <button class ="cta" data-product="${product.id}">Add to cart</button>
+//                                 </div>`;
+// }
+
 function createHTML(details) {
-  detailContainer.innerHTML = ` <div class="jacket-details_image">
-                                    <img src ="${details.images[0].src}" alt="${details.name}">
-                                    </div>
-                                    <div class="jacket-card_text">
-                                        <div>
-                                            <h2>${details.name}</h2>
-                                            <h3> Price : ${details.prices.price}</h3>
-                                        </div>
-                                        <p> Price : ${details.description}</p>   
-                                    
-                                </div>`;
+  detailContainer.innerHTML = `<img src ="${details.images[0].src}" alt="${details.name}">
+  
+                                <h2>${details.name}</h2>
+                                <h3> Price : ${details.prices.price}</h3>
+                                <p>${details.description}</p>
+                                `;
 }

@@ -23,7 +23,6 @@ function createHTML(products) {
                                             <img src ="${product.images[0].src}" alt="${product.name}">
                                             <h2>${product.name}</h2>
                                             <h3> Price : ${product.prices.price}</h3>
-                                            <p>${product.description}</p>
                                             <div class="star_ratings">
                                                 <i class="fas fa-star"></i>
                                                 <i class="fas fa-star"></i>
@@ -31,6 +30,7 @@ function createHTML(products) {
                                                 <i class="fas fa-star"></i>
                                                 <i class="fas fa-star-half-alt"></i>
                                             </div>
+                                            <p>${product.description}</p> 
                                             <button class ="cta" data-product="${product.id}">Add to cart</button>
                                         </a>  
                                  </div>`;

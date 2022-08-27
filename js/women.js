@@ -49,7 +49,8 @@ let cartArray = [];
 // }
 
 jacketArray.forEach(function (product) {
-  productsContainer.innerHTML += ` <div class="jacketList">
+  productsContainer.innerHTML += ` 
+  <div class="jacketList">
         <img src="${product.imgsrc}" alt ="${product.name}">
         <h2>${product.name}</h2>
         <h2> Color : ${product.color}</h2>
