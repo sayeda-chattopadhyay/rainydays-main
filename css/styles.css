@@ -126,7 +126,7 @@ nav {
 }
 
 .footer-heading,
-.footer-email-form {
+.footer-email {
   display: flex;
   flex-direction: column;
   margin-right: 64px;
