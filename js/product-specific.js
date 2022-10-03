@@ -43,7 +43,7 @@ fetchProduct();
 // }
 
 function createHTML(details) {
-  detailContainer.innerHTML = `<img src ="${details.images[0].src}" alt="${details.name}">
+  detailContainer.innerHTML += `<img src ="${details.images[0].src}" alt="${details.name}">
   
                                 <h2>${details.name}</h2>
                                 <h3> Price : ${details.prices.price}</h3>

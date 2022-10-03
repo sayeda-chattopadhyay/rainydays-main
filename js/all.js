@@ -9,6 +9,7 @@ async function getProducts() {
     createHTML(getResults);
   } catch (error) {
     console.log(error);
+    productContainer.innerHTML = errorMessage("an error found");
   }
 }
 
