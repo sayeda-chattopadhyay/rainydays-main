@@ -52,7 +52,7 @@ Any suggestions and feedback are welcome
 
 ## Contact
 
-[My Gmail](sayeda.b@gmail.com)
+[My Gmail](mailto:sayeda.b@gmail.com)
 
 [My LinkedIn page](https://www.linkedin.com/in/sayeda-chattopadhyay-7b33ba156/)
 
