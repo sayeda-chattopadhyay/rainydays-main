@@ -1,6 +1,6 @@
 # Rainydays
 
-![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
+![image](images/rainydays_logo.png)
 
 A course project for a online outdoor jacket company named Rainydays
 
@@ -10,14 +10,14 @@ The Rainydays website was a course assignment which was developed with HTML and 
 
 The following steps were used during development:
 
-    dobe XD was use for designing the website.
-    The design was tested using Adobe XD prototype.
-    The website was created using HTML and CSS.
-    the website was further improved using JavaScript.
-    A WordPress installation was madeA
-    WooCommerce plugin in WordPress was used to host product information.
+Adobe XD was use for designing the website.
+The design was tested using Adobe XD prototype.
+The website was created using HTML and CSS.
+The website was further improved using JavaScript.
+A WordPress installation was madeA
+WooCommerce plugin in WordPress was used to host product information.
 
-<a href="">Rainydays Link</a>
+<a href="https://sparkling-pavlova-fd0470.netlify.app/">Rainydays Link</a>
 
 ## Built With
 
