@@ -10,11 +10,11 @@ The Rainydays website was a course assignment which was developed with HTML and 
 
 The following steps were used during development:
 
-    Adobe XD was use for designing the website.
+    dobe XD was use for designing the website.
     The design was tested using Adobe XD prototype.
     The website was created using HTML and CSS.
     the website was further improved using JavaScript.
-    A WordPress installation was made
+    A WordPress installation was madeA
     WooCommerce plugin in WordPress was used to host product information.
 
 <a href="">Rainydays Link</a>
@@ -52,7 +52,7 @@ Any suggestions and feedback are welcome
 
 ## Contact
 
-[Gmail](mail to: sayeda.b@gmail.com)
+[My Gmail](sayeda.b@gmail.com)
 
 [My LinkedIn page](https://www.linkedin.com/in/sayeda-chattopadhyay-7b33ba156/)
 
