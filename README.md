@@ -2,7 +2,7 @@
 
 ![image](images/rainydays_logo.png)
 
-A course project for a online outdoor jacket company named Rainydays
+A cross course project for a online outdoor jacket company named Rainydays
 
 ## Description
 
