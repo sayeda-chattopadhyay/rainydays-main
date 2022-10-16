@@ -10,45 +10,45 @@ The Rainydays website was a course assignment which was developed with HTML and 
 
 The following steps were used during development:
 
-Adobe XD was use for designing the website.
-The design was tested using Adobe XD prototype.
-The website was created using HTML and CSS.
-The website was further improved using JavaScript.
-A WordPress installation was madeA
-WooCommerce plugin in WordPress was used to host product information.
+- Adobe XD was use for designing the website.
+- The design was tested using Adobe XD prototype.
+- The website was created using HTML and CSS.
+- The website was further improved using JavaScript.
+- A WordPress installation was made.
+- WooCommerce plugin in WordPress was used to host product information.
 
 <a href="https://sparkling-pavlova-fd0470.netlify.app/">Rainydays Link</a>
 
 ## Built With
 
-HTML
-CSS
-Javascript
+- HTML
+- CSS
+- Javascript
 
 ## CMS
 
-WordPress REST API
-WooCommerce
+- WordPress REST API
+- WooCommerce
 
 ## Designed with
 
-AdobeXD
+- AdobeXD
 
 ## Getting Started
 
 ### Installing
 
-Download the zip of the project or clone the repo :
+- Download the zip of the project or clone the repo :
 
 https://github.com/sayeda-chattopadhyay/rainydays-main.git
 
 ### Running
 
-Open in Visual Studio Code and use the Live Server Preview extension to view the site.
+- Open in Visual Studio Code and use the Live Server Preview extension to view the site.
 
 ## Contributing
 
-Any suggestions and feedback are welcome
+- Any suggestions and feedback are welcome
 
 ## Contact
 
