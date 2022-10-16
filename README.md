@@ -48,7 +48,7 @@ https://github.com/sayeda-chattopadhyay/rainydays-main.git
 
 ## Contributing
 
-- Any suggestions and feedback are welcome
+- Any suggestions and feedback are welcome.
 
 ## Contact
 
